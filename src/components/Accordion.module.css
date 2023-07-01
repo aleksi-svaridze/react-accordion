@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: lightgreen;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.card {
+    background-color: white;
+    padding: 20px;
+}
+.card:not(:last-child) {
+    border-bottom: 1px solid gray;
+}
+.title {
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
+}
+.desc {
+    padding-top: 10px;
+}
