@@ -5,7 +5,6 @@
     background: #FFF;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
     padding: 65px 95px 0;
-    /* flex-shrink: 0; */
     background-image: url(../images/card-bg.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -18,4 +17,15 @@
     top: 195px;
     position: absolute;
     height: 183px;
+}
+.text_content {
+    width: 350px;
+    margin: 0 0 0 auto;
+}
+.text_content__title {
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1E1F36;
 }
