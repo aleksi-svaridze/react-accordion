@@ -11,7 +11,7 @@ export const Accordion = () => {
         if(activeNumber === params) {
             setActiveNumber(null);
         } else {
-            setActiveNumber(params);
+            setActiveNumber(params);  
         }
     }
 
